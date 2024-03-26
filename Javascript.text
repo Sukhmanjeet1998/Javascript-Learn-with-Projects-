@@ -1,0 +1,16 @@
+Javascript: is a high level, object oriented, multi-paradigm programming language.
+
+Programming: Giving instruction to computer about what to do.
+
+Language: What language are we using to communicate with our computer.
+
+HTML, CSS and Javascript together help in creating dynamic website or web-applications.
+
+HTML(noun): Responsible for structure of page.
+
+CSS(adjective): Responsible for Styling of page.
+
+Javascript(verb): Make web-page dynamic.
+
+ECMAscript:Each new version brings enhancements, new features, and improvements to the language, making JavaScript (or ECMAScript) more powerful, expressive, and efficient. Developers often use transpilers like Babel to write code in newer versions of ECMAScript and convert it to older versions for broader compatibility,Yes, ECMAScript is a standard that is followed by all major JavaScript implementations. This standardization ensures consistency and interoperability across different platforms and browsers. By adhering to the ECMAScript specification, developers can write code that works reliably across various environments.
+
