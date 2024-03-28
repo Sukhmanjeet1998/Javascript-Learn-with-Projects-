@@ -366,22 +366,3 @@ console.log(`Sarah can ${age>=18?"drive":'not drive still '+(18-age)+'year left'
 /* 29. Challange 4 (Answer) */
 
 /* 30. Javascript Releases: ES5, ES6+ and ESNext. */ 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
