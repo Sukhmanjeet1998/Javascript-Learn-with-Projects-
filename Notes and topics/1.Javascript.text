@@ -1,0 +1,320 @@
+1) Javascript: is a high level, object oriented, multi-paradigm programming language.
+JavaScript has dynamic typing: We do not have to manually define the data type of the value stored in a variable. Instead, data types are determined automatically.
+Value has type, NOT variables!
+We can also change value and its type of same variable(but it is not a good practise).
+JavaScript programs are executed from top to bottom, So declaration must be very first at the beginning before use.
+
+1.1) JavaScript can be executed right inside one's browser. You can open the JavaScript console and start writing javascript there.
+1.2) Another way to execute javascript is a runtime like  Node.js which can be installed and used to run javascript code.
+1.3) Another way to execute javascript is by inserting it inside <script></script> tag of a HTML document.
+1.4) Some rules to follow while writing a javascript program. The set of these rules is called Syntax
+
+2) Programming: Giving instruction to computer about what to do.
+
+Language: What language are we using to communicate with our computer.
+
+3) HTML, CSS and Javascript together help in creating dynamic website or web-applications.
+
+4) HTML(noun): Responsible for structure of page.
+
+5) CSS(adjective): Responsible for Styling of page.
+
+6) Javascript(verb): Make web-page dynamic.
+
+7) ECMAscript:Each new version brings enhancements, new features, and improvements to the language, making JavaScript (or ECMAScript) more powerful, expressive, and efficient. Developers often use transpilers like Babel to write code in newer versions of ECMAScript and convert it to older versions for broader compatibility,Yes, ECMAScript is a standard that is followed by all major JavaScript implementations. This standardization ensures consistency and interoperability across different platforms and browsers. By adhering to the ECMAScript specification, developers can write code that works reliably across various environments.
+
+8) Value: which get from any expression.
+
+9) Number: Floating point number (both integer and decimal point number).
+
+10) String: Sequence of character.
+
+Empty: This term is not explicitly defined in JavaScript, but it's commonly used to describe variables or properties that have been declared but not yet assigned a value, or arrays/objects that have no elements/properties.
+
+let emptyVariable;
+let emptyArray = [];
+let emptyObject = {};
+
+11) Undefined: is a primitive value taken by a variable that is not yet defined('empty value').
+
+let undefinedVariable;
+console.log(undefinedVariable); // Output: undefined
+
+let person = {
+    name: 'John',
+    age: 30
+};
+console.log(person.address); // Output: undefined
+
+12) Null: is another primitive value has been defined in a variable but right not we not assign value, So its null.
+
+let nullVariable = null;
+console.log(nullVariable); // Output: null
+
+In summary:
+
+"Empty" generally refers to variables or properties without assigned values or arrays/objects without elements/properties.
+"Undefined" refers to variables or properties that have not been assigned a value or properties that do not exist in objects.
+"Null" is a special value that explicitly represents the absence of any object value.
+
+13) asterisk (*)
+
+14) var:
+
+var was the original way to declare variables in JavaScript before let and const were introduced.
+Variables declared with var are function-scoped, meaning they are accessible anywhere within the function in which they are declared.
+Variables declared with var are hoisted to the top of their scope. This means that they are treated as if they are declared at the beginning of the function or global scope.
+var allows redeclaration and reassignment.
+
+15) const:
+
+const was also introduced in ES6.
+Variables declared with const are block-scoped, like let.
+const creates a constant reference to the value, meaning the variable cannot be reassigned to a different value.
+Variables declared with const must be assigned a value when declared, and that value cannot be changed afterwards.
+
+16) let:
+
+let was introduced in ES6 (ECMAScript 2015) to address some of the issues with var.
+Variables declared with let are block-scoped, meaning they are only accessible within the block ({}) in which they are declared.
+Variables declared with let are not hoisted to the top of their scope.
+let allows reassignment but not redeclaration within the same scope.
+
+17) Operators in programming are symbols or keywords that perform operations on operands, such as variables and values. These operations can include arithmetic, comparison, logical, assignment, and more.
+
+Arithmetic Operators......
+
+Addition +
+Subtraction -
+Multiplication *
+Division /
+Modulus (Remainder) %
+Increment ++
+Decrement --
+
+Comparison Operators......
+
+Equal to ==
+Not equal to !=
+Strict equal to ===
+Strict not equal to !==
+Greater than >
+Greater than or equal to >=
+Less than <
+Less than or equal to <=
+
+Logical Operators......
+
+AND &&
+OR ||
+NOT !
+
+Assignment Operators......
+
+Assign =
+Addition assignment +=
+Subtraction assignment -=
+Multiplication assignment *=
+Division assignment /=
+Modulus assignment %=
+
+Unary Operators......
+
+Unary plus +
+Unary minus -
+Logical NOT !
+Increment ++
+Decrement --
+typeof typeof
+
+Ternary Operator (Conditional Operator)......
+
+condition ? exprIfTrue : exprIfFalse
+
+Bitwise Operators......
+
+Bitwise AND &
+Bitwise OR |
+Bitwise XOR ^
+Bitwise NOT ~
+Left shift <<
+Right shift >>
+Zero-fill right shift >>>
+
+18) Note: In real development Browser console has access to running variable values in the current browser tab.
+
+19) (+) to concatinate strings
+20) (``) backticks
+21) We can insert variables directly in template literal. This is called String interpolation.
+
+22) if/else Statements (Control Structure) : You can only run those code which follows the condition, other will not run.
+
+23) Type Conversion (Manually converting the datatype of variable value).
+Coercion (JScript automatically converting the datatype of variable value)
+
+24) Truthy value 
+Falsy value (0, '', {}. [], undefined, null, NaN) 
+
+25) Equality Operator (== vs ===)
+In (===) you get value as well as data type to compare and (===) does not perform type coercion.
+In (==) only value to compare.
+
+26) Boolean Logic (&&, ||, !)
+27) Logical Operators (via Boolean)
+26) The Switch Statements (switch use strict mode (===))
+27) Statements (Statements: Piece of code which do not produces value) 
+and 
+Expression: Piece of code which produces value (maximum times basic operators we use produces a value or string is a value or any other values)
+28) The Conditional (Ternary) operators
+29) JavaScript Releases: ES5, ES6+ and ESNext. 
+
+...............................................................................................................................
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
