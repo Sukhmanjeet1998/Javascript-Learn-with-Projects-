@@ -1,0 +1,81 @@
+1) Use Strict Mode
+2) Functions : Block of code to reuse multiple times.
+3) Function Declarations vs Expression
+
+Function Declaration:}
+Function declarations are one way to define functions in JavaScript.
+They start with the function keyword followed by the name of the function, a list of parameters (if any), and the function body enclosed in curly braces {}.
+Function declarations are hoisted, meaning they are available for use throughout the entire scope in which they're defined, regardless of where they appear within that scope.
+You can call function before declaration.
+Example:
+function myFunction(parameter1, parameter2) {
+    // Function body
+    // Statements
+}
+
+Function Expression:}
+Function expressions, on the other hand, are another way to define functions in JavaScript.
+They involve assigning a function to a variable or passing it as an argument to another function.
+Function expressions do not start with the function keyword followed by a name; instead, they're defined directly as a value.
+Function expressions are not hoisted like function declarations.
+You cannot call function before initialization. 
+Example:
+const myFunction = function(parameter1, parameter2) {
+    // Function body
+    // Statements
+};
+
+So, while both function declarations and function expressions define functions, they differ in syntax, hoisting behavior, and how they're used in code. Function declarations are distinct from function expressions, as they have different syntax and behavior.
+
+4) Arrow Function
+Arrow functions, introduced in ECMAScript 6 (ES6), provide a concise syntax for writing function expressions in JavaScript. They offer a more streamlined way to define functions compared to traditional function expressions, especially for short, one-liner functions. Here's the basic syntax of arrow functions:
+
+const functionName = (parameter1, parameter2) => {
+    // Function body
+    // Statements
+};
+Or, for single-parameter functions with a concise body, you can omit the parentheses around the parameter:
+
+const functionName = parameter => expression;
+
+Key features of arrow functions include:
+Concise syntax: Arrow functions allow you to write shorter and more readable code, especially for simple functions.
+Implicit return: If the function body consists of a single expression, you can omit the curly braces {} and the return keyword, and the result of the expression will automatically be returned.
+
+const add = (a, b) => a + b;
+Lexical this binding: Arrow functions do not have their own this context; instead, they inherit this from the enclosing lexical scope. This behavior can be beneficial in certain situations, such as when defining callback functions within object methods.
+
+const obj = {
+    name: 'John',
+    sayHello: function() {
+        setTimeout(() => {
+            console.log(`Hello, ${this.name}`); // 'this' refers to 'obj'
+        }, 1000);
+    }
+};
+obj.sayHello();
+No arguments object: Arrow functions do not have their own arguments object; instead, they inherit the arguments object from the enclosing scope. This can be advantageous in certain cases but requires careful consideration.
+
+Arrow functions are widely used in modern JavaScript codebases due to their simplicity, readability, and benefits in certain contexts. However, it's essential to be aware of their differences from traditional function expressions, especially regarding the handling of this and the absence of an arguments object.
+
+In summary:
+
+Use function declarations for named functions that need to be accessible globally or within a specific scope.
+Use function expressions for dynamically created functions or functions passed as arguments.
+
+Use arrow functions for concise, one-liner functions or when you want to maintain the lexical context (this) of the enclosing scope.
+
+Ultimately, the choice between function declaration, function expression, and arrow function depends on the specific requirements and context of your code. It's essential to consider readability, scoping, and functional requirements when deciding which type of function to use.
+
+5) Functions Calling Other Functions
+6) Arrays
+
+7) Primitives are stored directly in the location (stack) where the variable is accessed, whereas non-primitive data types, being more complex, are stored in the heap and accessed via references. When you assign a non-primitive value to a variable, you're actually assigning a reference (a pointer) to the memory location where the data is stored.
+
+8) Objects
+9) All methods are functions, but not all functions are methods. Functions can exist independently, while methods are functions that are tied to specific objects.
+10) this (keyword) : point/equal to object on which the method is called.
+11) Loops : repeative task till codition become false.
+12) Looping array, Breaking and Continuing, adding element to new array (simple and via push or unshift method)
+13) Looping Backwards and Loops in Loops
+14) While loop
