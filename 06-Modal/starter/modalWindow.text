@@ -1,0 +1,13 @@
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
+
+// console.log(showModal); // By default it always show the element.
+
+Here we add or remove classes of elements. 
+
+
+The onKeyDown event is triggered when the user presses a key, and It provides information about the physical key being pressed, including modifier keys like Shift, Ctrl, Alt, etc.
+
+The onKeyPress event is triggered when the user presses & releases a key (onKeyDown followed by onKeyUp)and keypress event doesn't provide information about non-character keys like Shift, Ctrl, Alt, etc. 
+
+The onKeyUp event is triggered when the user releases a key, It provides information about the physical key being released, similar to the keydown event.
+keyup event doesn't provide information about the character that was typed.
