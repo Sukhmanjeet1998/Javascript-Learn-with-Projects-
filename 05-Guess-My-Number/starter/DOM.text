@@ -1,0 +1,62 @@
+Document Object Model: Structured presentation of HTML documents. Alllows Javascript to access HTML elements and styles to manipulate them.
+
+document.querySelector(); To select elements
+document.querySelector().textContent; To select elements context
+
+DOM methods and properties for DOM manipulations are not part of JS, but they are WebAPI's made in JS and help in interacting with JS and help's in manipulating HTML elements.
+API: Application Programming Interface
+
+Event Listiner is something that happens on the page : Mouse click, Mouse movement, Key Press etc...
+
+
+Project Things:..........................................
+/*
+// console.log(document.querySelector('.message').textContent);
+
+document.querySelector('.message').textContent = "🎉 Correct Answer";
+
+// console.log(document.querySelector('.message').textContent);
+
+document.querySelector('.number').textContent = 13;
+document.querySelector('.score').textContent = 10;
+
+// console.log(document.querySelector('.guess').value);
+document.querySelector('.guess').value = 23;
+// console.log(document.querySelector('.guess').value);
+*/
+/*
+// As we click the button after input the number by user, print it to the console 
+
+ // console.log(document.querySelector(".guess").value);
+    // document.querySelector(".message").textContent = "🎉 Correct Number!"
+*/
+
+// document.querySelector(".number").textContent = secretNumber;
+
+Refracting: rid of duplicate code.
+
+//...................................................................................
+  /*
+  // When guess is to high
+  else if (guess > secretNumber) {
+    if (score > 1) {
+      displaymessage("📈 To High!");
+      score--;
+      document.querySelector(".score").textContent = score;
+    } else {
+      displaymessage("🐒 You loose the game!");
+      document.querySelector(".score").textContent = 0;
+    }
+  } 
+  // When guess is to low
+  else if (guess < secretNumber) {
+    if (score > 1) {
+      displaymessage("📉 To Low!");
+      score--;
+      document.querySelector(".score").textContent = score;
+    } else {
+      displaymessage("🐒 You loose the game!");
+      document.querySelector(".score").textContent = 0;
+    }
+  }
+  */
