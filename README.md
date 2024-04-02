@@ -1,2 +1,2 @@
-# Javascript (by Jonas Schmedtmann)
-Started Javascript course by Jonas Schmedtmann
+# Javascript (Learn with Projects)
+Started Javascript course.
