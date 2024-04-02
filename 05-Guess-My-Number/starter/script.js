@@ -2,7 +2,7 @@
 "use strict";
 
 let secretNumber = Math.trunc(Math.random() * 20) + 1;
-document.querySelector(".number").textContent = secretNumber;
+// document.querySelector(".number").textContent = secretNumber;
 console.log(secretNumber, typeof secretNumber);
 let score = 20;
 let highScore = 0;
