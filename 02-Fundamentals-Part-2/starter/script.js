@@ -131,6 +131,26 @@ console.log(`My age is ${ageMy(1998)}`);
 */
 
 /* 38. challange 5 (Answer) */
+/*
+const calcAverage = (scr1, scr2, scr3) => {
+    return (scr1+scr2+scr3)/3;
+}
+const checkWinner = (avgDolphins, avgKoalas) => {
+    if (avgDolphins >= 2*avgKoalas) {
+        console.log(`Dolphins win (${avgDolphins} vs. ${avgKoalas})`);
+    }
+    else if(avgKoalas >= 2*avgDolphins){
+        console.log(`Koalas win (${avgKoalas} vs. ${avgDolphins})`);
+    }
+    else {
+        console.log(`No team wins...`);
+    } 
+}
+let scoreDolphins = calcAverage(85,54,41);
+let scoreKoalas = calcAverage(23,34,27);
+checkWinner(scoreDolphins, scoreKoalas);
+*/
+
 // 39. Introductions to Arrays
 /*
 const info = ['Sukhman', 25, Symbol('@'), null, true,BigInt(9999),undefined];
@@ -194,6 +214,24 @@ console.log(isThere_);
 */
 
 /* 41. challange 6 (Answer) */
+/*
+const calcTip = (bill) => {
+    return (bill >=50 && bill <=300)? (bill * 0.15):(bill * 0.2);
+};
+const tips = Array();
+const totals = Array();
+
+const bills = Array(125,555,44,33);
+
+for (var i = 0; i < bills.length; i++) {
+    tips.push(calcTip(bills[i]));
+    totals.push(calcTip(bills[i])+bills[i]);
+}
+
+console.log(tips);
+console.log(totals);
+
+*/
 
 // 42 & 43. Introduction to Objects and Dot vs Bracket Notation
 /*
@@ -276,6 +314,38 @@ console.log(myInfo.summary());
 */
 
 /* 45. Challange 7 (Answer) */
+/*
+const mark = {
+    fullName : "Mark Miller",
+    mass: 78,
+    height: 1.69,
+    calcBMI: function(){
+        this.bmi =  (this.mass / (this.height * this.height));
+        return this.bmi;
+    }
+    
+};
+const john = {
+    fullName : "John Smith",
+    mass: 92,
+    height: 1.95,
+    calcBMI: function(){
+        this.bmi =  (this.mass / (this.height * this.height));
+        return this.bmi;
+    }
+    
+};
+mark.calcBMI(); 
+john.calcBMI();
+
+console.log(mark.bmi, john.bmi);
+
+if (mark.bmi) {
+    console.log(`${mark.fullName}'s BMI (${mark.bmi}) is higher than ${john.fullName}'s BMI (${john.bmi})`);
+} else {
+    console.log(`${john.fullName}'s BMI (${john.bmi}) is higher than ${mark.fullName}'s BMI (${mark.bmi})`);
+} 
+*/
 
 // 46. Iteration: The Loop
 /*
@@ -391,4 +461,31 @@ while (_dice !== 6) {
 */
 
 // 50 . Challange 8 (Answer)
+/*
+const calcTip = (bills) => {
+    return (bills>=50 && bills<=300)?(bills*0.15):(bills*0.2);
+}
 
+const calcAverage = (arr) => {
+    let sum = 0;
+    for (var i = 0; i < arr.length; i++) {
+        sum += arr[i];
+    }
+    return sum/(arr.length);
+}
+
+const bills = Array(22, 295, 176, 440, 37, 105, 10, 1100, 86,52);
+const tips = Array();
+const totals = Array();
+
+for (var i = 0; i < bills.length; i++) {
+    tips.push(calcTip(bills[i]));
+    totals.push(calcTip(bills[i])+bills[i]);
+}
+
+console.log(tips);
+console.log(totals);
+
+console.log(calcAverage(totals));
+
+*/
