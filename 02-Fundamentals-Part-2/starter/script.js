@@ -487,5 +487,16 @@ console.log(tips);
 console.log(totals);
 
 console.log(calcAverage(totals));
+*/
 
+/*
+const forecastData = (forecastData)=>{
+    let str = "";
+    for (let index = 0; index < forecastData.length; index++) {
+        str += `${forecastData[index]}°C in ${index+1} days ... `
+    }
+    console.log(" ... " + str);  
+}
+const forecastDataArr = [17,21,23];
+forecastData(forecastDataArr);
 */
