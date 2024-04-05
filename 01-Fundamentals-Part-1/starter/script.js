@@ -128,8 +128,20 @@ console.log(isFullAge);
 
 /*
 // 14. Operator Precedence
-// 15. Note
+// 15. Note about challange
+*/
+
 // 16. Challange 1 (Answer)
+/*
+let massMark = 78;
+let heightMark = 1.69;
+let massJohn = 92;
+let heightJohn = 1.95;
+
+let BMIMark = (massMark / (heightMark * heightMark));
+let BMIJohn = (massJohn / (heightJohn * heightJohn));
+
+console.log(BMIMark,BMIJohn);
 */
 
 // 17. Strings and Template Literals
@@ -179,6 +191,22 @@ console.log(`You born in ${century}century!`);
 */
 
 /* 19. Challange 2 (Answer) */
+/*
+let massMark = 78;
+let heightMark = 1.69;
+let massJohn = 92;
+let heightJohn = 1.95;
+
+let BMIMark = (massMark / (heightMark * heightMark));
+let BMIJohn = (massJohn / (heightJohn * heightJohn));
+
+console.log(BMIMark,BMIJohn);
+
+let markHigherBMI = (BMIMark>BMIJohn?`Mark's BMI ${BMIMark} is higher than John's ${BMIJohn}!`:`John's BMI ${BMIJohn} is higher than Mark's ${BMIMark}!`);
+console.log(markHigherBMI);
+
+*/
+
 // 20. Type Conversion and Coercion
 /*
 // Type Conversion (Manually converting the datatype of variable value)
@@ -317,6 +345,22 @@ if (!(hasDriverLience) || !(hasGoodVision) || isTired) {
 }
 */
 
+// 25. Challange 3 (Answer)
+/*
+let scoreDolphins = (96+108+89)/3;
+let scoreKoalas = (88+91+110)/3;
+
+if (scoreDolphins > scoreKoalas) {
+    console.log("Dolphins win the trophy");    
+}
+else if(scoreKoalas > scoreDolphins){
+    console.log("Koalas win the trophy");
+} 
+else {
+    console.log("Both win the trophy");
+}
+*/
+
 // 26. The Switch  (switch use strict mode (===))
 /*
 const day = "monday";
@@ -364,5 +408,30 @@ console.log(`Sarah can ${age>=18?"drive":'not drive still '+(18-age)+'year left'
 */
 
 /* 29. Challange 4 (Answer) */
+/*
+let bill = 430;
+let tip = (bill >= 50 && bill <= 300)?(bill*0.15):(bill*0.2);
+let totalBill = tip + bill;
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${totalBill}`);
+*/
 
 /* 30. Javascript Releases: ES5, ES6+ and ESNext. */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
